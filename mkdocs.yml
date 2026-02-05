@@ -1,5 +1,5 @@
-site_name: My site
-site_url: https://mydomain.org/mysite
+site_name: Eddy Boa
+site_url: https://mydomain.org/eddyboa
 theme:
   name: material
   features:
@@ -22,7 +22,10 @@ plugins:
   - search
   - tags:
       tags_file: tags.md
-  - blog
+  - blog:
+      blog_dir: blog
+      blog_toc: true
+  
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -35,10 +38,13 @@ markdown_extensions:
 
 nav:
  - Home: index.md 
- - About: 
-    - About me: about/about.md
-    - Section: about/section.md
  - Tags: tags.md
- - Coding: coding/godot.md
- - Blog: 
+ - AKCIT: 
+   - Peixes do Sertão: akcit/posts/peixes.md
+   - Janela Virtual: akcit/posts/janela.md
+   - Germinarium: akcit/posts/germinarium.md
+   - Comparação de Modelos: akcit/posts/comparacao-modelos.md
+   - LIDAR: akcit/posts/lidar.md
+   - Curadoria: akcit/posts/curadoria.md
+ - Posts: 
    - blog: blog/index.md
