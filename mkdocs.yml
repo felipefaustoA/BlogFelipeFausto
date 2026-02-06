@@ -35,6 +35,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
 
 nav:
  - Home: index.md 
@@ -48,3 +49,6 @@ nav:
    - Curadoria: akcit/posts/curadoria.md
  - Posts: 
    - blog: blog/index.md
+
+extra_css:
+  - assets/stylesheets/extra.css
